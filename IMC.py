@@ -1,0 +1,6 @@
+nome = input('Seja bem vindo ao nosso site!\n Qual é o seu nome?')
+print('Ola', nome, ' hoje vamos descobrir qual é o seu IMC!')
+peso = float(input('Digite seu peso?'))
+altura = float(input('Qual é a sua altura?'))
+print(peso / altura ** 2)
+print('Muito obrigado pela sua visita, volte novamente!')
